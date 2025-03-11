@@ -7,7 +7,9 @@ export function HeaderContainer() {
     <div className="flex flex-col gap-4">
       <SearchBar />
       <ImageContainer />
-      <CustomSelect />
+      <div className="flex w-full justify-end">
+        <CustomSelect />
+      </div>
     </div>
   );
 }

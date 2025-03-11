@@ -25,15 +25,13 @@ export const CustomSelect = () => {
   }
 
   return (
-    <div className="flex w-full justify-end text-sm">
-      <Select
-        instanceId="sort-select"
-        value={selectedOption}
-        onChange={handleNavigate}
-        options={options}
-        placeholder="정렬 방식 선택"
-        className="z-20 w-1/2"
-      />
-    </div>
+    <Select
+      instanceId="sort-select"
+      value={selectedOption}
+      onChange={handleNavigate}
+      options={options}
+      placeholder="정렬 방식 선택"
+      className="z-20 w-1/2 text-sm"
+    />
   );
 };
