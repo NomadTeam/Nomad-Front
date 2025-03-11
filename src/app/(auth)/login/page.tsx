@@ -1,19 +1,19 @@
 export default function LoginPage() {
   return (
-    <div className="container mx-auto p-4 max-w-md">
-      <h2 className="text-3xl font-bold mb-4">로그인</h2>
+    <div className="container mx-auto max-w-md p-4">
+      <h2 className="mb-4 text-3xl font-bold">로그인</h2>
       <form className="flex flex-col space-y-4">
         <input
           type="email"
           placeholder="이메일"
-          className="p-2 border rounded"
+          className="rounded border p-2"
         />
         <input
           type="password"
           placeholder="비밀번호"
-          className="p-2 border rounded"
+          className="rounded border p-2"
         />
-        <button type="submit" className="p-2 bg-blue-500 text-white rounded">
+        <button type="submit" className="rounded bg-blue-500 p-2 text-white">
           로그인
         </button>
       </form>

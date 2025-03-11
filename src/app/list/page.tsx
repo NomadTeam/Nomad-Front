@@ -8,7 +8,7 @@ const items = [
 export default function ListPage() {
   return (
     <div className="container mx-auto p-4">
-      <h2 className="text-3xl font-bold mb-4">리스트 정렬 페이지</h2>
+      <h2 className="mb-4 text-3xl font-bold">리스트 정렬 페이지</h2>
       <ul className="divide-y">
         {items.map((item) => (
           <li key={item.id} className="p-2">
