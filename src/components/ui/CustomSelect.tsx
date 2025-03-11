@@ -10,6 +10,11 @@ type OptionType = {
   link: string;
 };
 
+const options = [
+  { value: "option1", label: "최신순", link: "/" },
+  { value: "option2", label: "조회수순", link: "/view" },
+];
+
 export const CustomSelect = () => {
   const [selectedOption, setSelectedOption] = useState<OptionType | null>(null);
   const router = useRouter();
@@ -20,20 +25,15 @@ export const CustomSelect = () => {
   }
 
   return (
-    <div className="w-1/2 text-sm">
+    <div className="flex w-full justify-end text-sm">
       <Select
         instanceId="sort-select"
         value={selectedOption}
         onChange={handleNavigate}
         options={options}
         placeholder="정렬 방식 선택"
-        className="z-20"
+        className="z-20 w-1/2"
       />
     </div>
   );
 };
-
-const options: OptionType[] = [
-  { value: "option1", label: "최신순", link: "/" },
-  { value: "option2", label: "조회수순", link: "/view" },
-];

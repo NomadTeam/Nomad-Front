@@ -1,5 +1,4 @@
 @import "tailwindcss";
-
 @import "swiper/css";
 @import "swiper/css/pagination";
 
@@ -8,3 +7,4 @@
     @apply m-0 p-0 box-border;
   }
 }
+

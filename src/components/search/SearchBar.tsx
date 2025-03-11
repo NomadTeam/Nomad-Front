@@ -30,13 +30,13 @@ export const SearchBar = () => {
         value={search}
         type="text"
         placeholder="검색어를 입력하세요"
-        className="w-full rounded-full border border-[#4682B4] p-3 text-xs focus:ring-2 focus:ring-[#4682B4] focus:outline-none"
+        className="w-full rounded-full border border-[#4682B4] p-3 text-sm focus:ring-2 focus:ring-[#4682B4] focus:outline-none"
         onChange={handleChange}
         onKeyDown={handleKeyDown}
       />
       <button
         onClick={handleSearch}
-        className="absolute top-3 right-3 cursor-pointer text-[#4682B4]"
+        className="absolute top-3.5 right-3.5 cursor-pointer text-[#4682B4]"
       >
         <FaSearch />
       </button>
