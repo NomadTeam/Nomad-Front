@@ -3,7 +3,7 @@ import { FaCog } from "react-icons/fa";
 
 export const Header = () => {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-gray-200 bg-white">
+    <header className="sticky top-0 z-50 w-full border-b border-gray-200 bg-white shadow-md">
       <div className="flex items-center justify-between p-4">
         <Link href="/" className="font-cursive text-2xl text-[#4682B4]">
           Key-Nomad

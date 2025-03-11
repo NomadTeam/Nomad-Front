@@ -16,7 +16,7 @@ export function WeatherItem() {
               className="object-fill"
             />
             <div className="absolute bottom-3 left-2 w-full">
-              <span className="rounded-lg border border-blue-500 bg-white px-2 py-1 text-base shadow-md">
+              <span className="rounded-lg border border-blue-500 bg-white px-2 py-1 text-sm shadow-md">
                 {item.title}
               </span>
             </div>

@@ -10,7 +10,8 @@ export const SearchBar = () => {
   const [search, setSearch] = useState("");
 
   function handleChange(e: InputEvent) {
-    setSearch(e.target.value);
+    const value = e.target.value;
+    setSearch(value);
   }
 
   function handleSearch() {
@@ -19,7 +20,8 @@ export const SearchBar = () => {
   }
 
   function handleKeyDown(e: KeyboardEvent) {
-    if (e.key === "Enter") handleSearch();
+    const key = e.key;
+    if (key === "Enter") handleSearch();
   }
 
   return (
