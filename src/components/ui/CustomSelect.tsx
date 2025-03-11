@@ -27,6 +27,7 @@ export const CustomSelect = () => {
         onChange={handleNavigate}
         options={options}
         placeholder="정렬 방식 선택"
+        className="z-20"
       />
     </div>
   );

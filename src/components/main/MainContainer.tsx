@@ -1,12 +1,7 @@
 import { RecentItems } from "@/components/main/RecentItems";
 import { MdPick } from "@/components/main/MdPick";
 import { WeatherItem } from "@/components/main/WeatherItem";
-
-const SECTION_TITLE = {
-  recentSearch: "최근 검색이 많았어요!",
-  mdPick: "MD PICK!",
-  weather: "요즘 날씨 여긴 어때?",
-};
+import { SECTION_TITLE } from "@/lib/constant";
 
 export function MainContainer() {
   return (

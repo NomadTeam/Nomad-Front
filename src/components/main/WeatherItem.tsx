@@ -1,30 +1,7 @@
 import Image from "next/image";
 import { FaThumbsUp } from "react-icons/fa";
 import Link from "next/link";
-
-const WEATHER_DATA = [
-  {
-    id: 1,
-    image: "/next.svg",
-    title: "경복궁",
-    likeCount: 10,
-    link: "https://www.google.com",
-  },
-  {
-    id: 2,
-    image: "/next.svg",
-    title: "경복궁",
-    likeCount: 10,
-    link: "https://www.google.com",
-  },
-  {
-    id: 3,
-    image: "/next.svg",
-    title: "경복궁",
-    likeCount: 10,
-    link: "https://www.google.com",
-  },
-];
+import { WEATHER_DATA } from "@/lib/constant";
 
 export function WeatherItem() {
   return (
