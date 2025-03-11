@@ -2,6 +2,33 @@ import { FaThumbsUp } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 
+const recentSearch = [
+  {
+    id: 1,
+    image: "/next.svg",
+    title: "남산 타워",
+    likeCount: 10,
+    tag: "관광지",
+    link: "https://www.google.com",
+  },
+  {
+    id: 2,
+    image: "/next.svg",
+    title: "오사카",
+    likeCount: 10,
+    tag: "관광지",
+    link: "https://www.google.com",
+  },
+  {
+    id: 3,
+    image: "/next.svg",
+    title: "피사의 사탑",
+    likeCount: 10,
+    tag: "관광지",
+    link: "https://www.google.com",
+  },
+];
+
 export function RecentItems() {
   return (
     <div className="flex gap-4">
@@ -30,30 +57,3 @@ export function RecentItems() {
     </div>
   );
 }
-
-const recentSearch = [
-  {
-    id: 1,
-    image: "/next.svg",
-    title: "남산 타워",
-    likeCount: 10,
-    tag: "관광지",
-    link: "https://www.google.com",
-  },
-  {
-    id: 2,
-    image: "/next.svg",
-    title: "오사카",
-    likeCount: 10,
-    tag: "관광지",
-    link: "https://www.google.com",
-  },
-  {
-    id: 3,
-    image: "/next.svg",
-    title: "피사의 사탑",
-    likeCount: 10,
-    tag: "관광지",
-    link: "https://www.google.com",
-  },
-];
