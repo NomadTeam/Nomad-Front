@@ -20,8 +20,9 @@ export const CustomSelect = () => {
   }
 
   return (
-    <div className="w-2/3">
+    <div className="w-1/2 text-sm">
       <Select
+        instanceId="sort-select"
         value={selectedOption}
         onChange={handleNavigate}
         options={options}

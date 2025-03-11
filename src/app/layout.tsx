@@ -13,13 +13,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className="mx-auto h-full w-full max-w-md bg-gray-100">
-        <main className="h-screen bg-white">
+      <body className="mx-auto h-full w-full max-w-md bg-white">
+        <main className="border-x border-gray-200">
           <Header />
           {children}
         </main>
-        {/* 스크롤 이벤트 테스트 용 */}
-        <div className="h-screen w-full bg-gray-200"></div>
       </body>
     </html>
   );
