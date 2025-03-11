@@ -14,8 +14,12 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className="mx-auto h-full w-full max-w-md bg-gray-100">
-        <Header />
-        {children}
+        <main className="h-screen bg-white">
+          <Header />
+          {children}
+        </main>
+        {/* 스크롤 이벤트 테스트 용 */}
+        <div className="h-screen w-full bg-gray-200"></div>
       </body>
     </html>
   );
